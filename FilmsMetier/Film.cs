@@ -21,6 +21,7 @@ namespace FilmsMetier
             PhotoFilm = unePhoto;
             LeRealisateur = unRealisateur;
             LesActeurs = new List<Acteur>();
+            //test
         }
 
         public Realisateur LeRealisateur { get => leRealisateur; set => leRealisateur = value; }
